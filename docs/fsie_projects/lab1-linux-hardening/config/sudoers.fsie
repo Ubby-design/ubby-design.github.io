@@ -1,9 +1,0 @@
-# Opsadmin group: full sudo
-%opsadmin ALL=(ALL) ALL
-
-# Deploy group: limited commands
-%deploy ALL=(ALL) NOPASSWD: /usr/bin/systemctl restart myapp.service
-
-# Auditor group: no sudo
-%auditor ALL=(ALL) NOPASSWD: /bin/false
-
