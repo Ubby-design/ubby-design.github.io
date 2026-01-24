@@ -1,0 +1,3 @@
+-w /etc/sudoers -p wa -k sudoers_changes
+-w /var/log/auth.log -p wa -k auth_logs
+
