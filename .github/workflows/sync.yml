@@ -1,0 +1,38 @@
+name: Auto-Sync & Deploy MkDocs
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+  schedule:
+    - cron: '0 */6 * * *'
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install MkDocs
+        run: pip install mkdocs mkdocs-material pyyaml
+
+      - name: Run Sync Script
+        run: bash scripts/sync_repos.sh
+
+      - name: Auto-generate MkDocs nav
+        run: python scripts/auto_nav.py
+
+      - name: Build MkDocs (strict mode)
+        run: mkdocs build --strict
+
+      - name: Deploy to GitHub Pages
+        run: mkdocs gh-deploy --force
+

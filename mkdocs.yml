@@ -1,0 +1,32 @@
+site_name: FSIE Projects
+site_url: https://ubby-design.github.io
+theme:
+  name: material
+  palette:
+    primary: indigo
+    accent: indigo
+extra:
+  social:
+  - icon: fontawesome/brands/github
+    link: https://github.com/Ubby-design
+nav:
+- Home: index.md
+- Fsie_Projects:
+  - Overview: fsie_projects/index.md
+  - Lab1 Linux Setup Hardening:
+    - Readme: fsie_projects/lab1-linux-setup-hardening/README.md
+    - Configs:
+      - Readme: fsie_projects/lab1-linux-setup-hardening/configs/README.md
+    - Scripts:
+      - Readme: fsie_projects/lab1-linux-setup-hardening/scripts/README.md
+  - Lab1: fsie_projects/lab1.md
+  - Lab2 Vagrant Vm:
+    - Readme: fsie_projects/lab2-vagrant-vm/README.md
+    - Provisioning Scripts:
+      - Readme: fsie_projects/lab2-vagrant-vm/provisioning-scripts/README.md
+  - Lab2: fsie_projects/lab2.md
+  - Lab3 Network Firewall Config:
+    - Readme: fsie_projects/lab3-network-firewall-config/README.md
+    - Configs:
+      - Readme: fsie_projects/lab3-network-firewall-config/configs/README.md
+  - Lab3: fsie_projects/lab3.md
