@@ -2,62 +2,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://ubby-design.github.io/</loc>
-         <lastmod>2026-01-24</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2026-01-25</lastmod>
     </url>
     <url>
          <loc>https://ubby-design.github.io/fsie_projects/</loc>
-         <lastmod>2026-01-24</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2026-01-25</lastmod>
     </url>
     <url>
          <loc>https://ubby-design.github.io/fsie_projects/lab1/</loc>
-         <lastmod>2026-01-24</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2026-01-25</lastmod>
     </url>
     <url>
          <loc>https://ubby-design.github.io/fsie_projects/lab2/</loc>
-         <lastmod>2026-01-24</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2026-01-25</lastmod>
     </url>
     <url>
          <loc>https://ubby-design.github.io/fsie_projects/lab3/</loc>
-         <lastmod>2026-01-24</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2026-01-25</lastmod>
     </url>
     <url>
          <loc>https://ubby-design.github.io/fsie_projects/lab1-linux-setup-hardening/</loc>
-         <lastmod>2026-01-24</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2026-01-25</lastmod>
     </url>
     <url>
          <loc>https://ubby-design.github.io/fsie_projects/lab1-linux-setup-hardening/configs/</loc>
-         <lastmod>2026-01-24</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2026-01-25</lastmod>
     </url>
     <url>
          <loc>https://ubby-design.github.io/fsie_projects/lab1-linux-setup-hardening/scripts/</loc>
-         <lastmod>2026-01-24</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2026-01-25</lastmod>
     </url>
     <url>
          <loc>https://ubby-design.github.io/fsie_projects/lab2-vagrant-vm/</loc>
-         <lastmod>2026-01-24</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2026-01-25</lastmod>
     </url>
     <url>
          <loc>https://ubby-design.github.io/fsie_projects/lab2-vagrant-vm/provisioning-scripts/</loc>
-         <lastmod>2026-01-24</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2026-01-25</lastmod>
     </url>
     <url>
          <loc>https://ubby-design.github.io/fsie_projects/lab3-network-firewall-config/</loc>
-         <lastmod>2026-01-24</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2026-01-25</lastmod>
     </url>
     <url>
          <loc>https://ubby-design.github.io/fsie_projects/lab3-network-firewall-config/configs/</loc>
-         <lastmod>2026-01-24</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2026-01-25</lastmod>
     </url>
 </urlset>
